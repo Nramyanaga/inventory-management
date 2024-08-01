@@ -140,7 +140,7 @@ export default function Home() {
         <Box
           width="800px"
           height="100px"
-          bgcolor="#fcba03"
+          bgcolor="#F9E0DB"
           display="flex"
           alignItems="center"
           justifyContent="center">
@@ -155,10 +155,10 @@ export default function Home() {
               justifyContent="space-between"
               bgColor='#f0f0f0'
               padding={5}>
-              <Typography variant='h3' color='#333' textAlign='center'>
+              <Typography variant='h3' color='#588061' textAlign='center'>
                 {name.charAt(0).toUpperCase() + name.slice(1)}
               </Typography>
-              <Typography variant='h3' color='#333' textAlign='center'>
+              <Typography variant='h3' color='#588061' textAlign='center'>
                 {quantity}
               </Typography>
               <Stack direction="row" spacing={2}>
