@@ -100,7 +100,7 @@ export default function Home() {
             bgcolor:"#FFFFFF",
             transform: 'translate(-50%,-50%)'
           }}>
-          <Typography variant="h6" sx={{backgroundColor: '#869F77'}}>Add Item</Typography>
+          <Typography variant="h6" color='#869F77'>Add Item</Typography>
           <Stack width="100%" direction="row" spacing={2}>
             <TextField
               variant='outlined'
