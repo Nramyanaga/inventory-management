@@ -90,7 +90,6 @@ export default function Home() {
           top="50%"
           left="50%"
           width={400}
-          bgcolor="white"
           border="2px solid #000"
           boxShadow={24}
           p={4}
@@ -98,6 +97,7 @@ export default function Home() {
           flexDirection="column"
           gap={3}
           sx={{
+            bgcolor:"#fcba03",
             transform: 'translate(-50%,-50%)'
           }}>
           <Typography variant="h6">Add Item</Typography>
