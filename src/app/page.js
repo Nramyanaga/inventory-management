@@ -140,7 +140,7 @@ export default function Home() {
         <Box
           width="800px"
           height="100px"
-          bgcolor="#ADD8E6"
+          bgcolor="#fcba03"
           display="flex"
           alignItems="center"
           justifyContent="center">
