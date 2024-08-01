@@ -116,7 +116,7 @@ export default function Home() {
                 addItem(itemName)
                 setItemName('')
                 handleClose()
-              }} sx={{backgroundColor: '#869F77'}}
+              }} sx={{backgroundColor: '#869F77'}} color ="#FFFFFF"
             >Add</Button>
           </Stack>
         </Box>
