@@ -97,7 +97,7 @@ export default function Home() {
           flexDirection="column"
           gap={3}
           sx={{
-            bgcolor:"white",
+            bgcolor:"#FFFFFF",
             transform: 'translate(-50%,-50%)'
           }}>
           <Typography variant="h6">Add Item</Typography>
