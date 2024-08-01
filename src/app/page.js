@@ -91,7 +91,7 @@ export default function Home() {
           left="50%"
           width={400}
           bgcolor="white"
-          border="2px solid #001"
+          border="2px solid #000"
           boxShadow={24}
           p={4}
           display="flex"
