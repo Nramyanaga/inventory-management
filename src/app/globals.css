@@ -4,12 +4,3 @@
   margin: 0;
   padding: 0;
 }
-
-body {
-  font-family: Arial, sans-serif; /* Or any font you prefer */
-}
-
-/* Ensure no unwanted borders */
-hr {
-  border: none; /* Remove default styles if using <hr> */
-}

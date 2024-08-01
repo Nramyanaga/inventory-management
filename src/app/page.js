@@ -166,7 +166,7 @@ export default function Home() {
                 <Button variant="contained" onClick={() => addItem(name)} sx={{backgroundColor: '#869F77'}}>
                   Add
                 </Button>
-                <Button variant="contained" onClick={() => removeItem(name)} >
+                <Button variant="contained" onClick={() => removeItem(name)} sx={{backgroundColor: '#869F77'}} >
                   Remove
                 </Button>
               </Stack>
