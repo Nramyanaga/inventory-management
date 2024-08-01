@@ -129,7 +129,8 @@ export default function Home() {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
-        <Button variant="contained" onClick={() => searchItems(searchQuery)}>
+        <Button variant="contained" onClick={() => searchItems(searchQuery)}
+          sx={{backgroundColor: '#869F77'}}>
           Search
         </Button>
       </Box>
