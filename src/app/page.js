@@ -134,7 +134,7 @@ export default function Home() {
           Search
         </Button>
       </Box>
-      <Button variant="contained" onClick={handleOpen}>
+      <Button variant="contained" onClick={handleOpen} sx={{backgroundColor: '#869F77'}}>
         Add New Item
       </Button>
       <Box border='1px solid #333'>
@@ -163,10 +163,10 @@ export default function Home() {
                 {quantity}
               </Typography>
               <Stack direction="row" spacing={2}>
-                <Button variant="contained" onClick={() => addItem(name)}>
+                <Button variant="contained" onClick={() => addItem(name)} sx={{backgroundColor: '#869F77'}}>
                   Add
                 </Button>
-                <Button variant="contained" onClick={() => removeItem(name)}>
+                <Button variant="contained" onClick={() => removeItem(name)} sx={{backgroundColor: '#869F77'}}>
                   Remove
                 </Button>
               </Stack>
