@@ -90,8 +90,8 @@ export default function Home() {
           top="50%"
           left="50%"
           width={400}
-          bgcolor="black"
-          border="2px solid #000"
+          bgcolor="white"
+          border="2px solid #001"
           boxShadow={24}
           p={4}
           display="flex"
